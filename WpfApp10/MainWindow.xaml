@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="grid">
+        <!--<StackPanel Width="300">
+    
+            <TextBox x:Name="txt1"  Margin="10 40 10 10"></TextBox>
+            <Button Height="35" >Add</Button>
+            <Label  Height="40" Content="{Binding ElementName=txt1, Path=Text}"></Label>
+        
+        </StackPanel>-->
+
+        <!--<StackPanel Width="300">
+            <TextBlock Name="txb1" Text="{Binding SomeText}" Height="40" FontSize="35" Margin="10"></TextBlock>
+            <Button x:Name="btn1" Height="35" Click="btn1_Click">Add</Button>
+            --><!--<Slider Name="sld1"></Slider>
+            <Slider Name="sld2"></Slider>--><!--
+            <CheckBox Checked="CheckBox_Checked">Selamin aleykum</CheckBox>
+        </StackPanel>-->
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+        <Button Click="Button_Click">new page</Button>
+        
+
+
+      
+
+    </Grid>
+</Window>
